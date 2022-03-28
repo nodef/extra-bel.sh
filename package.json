@@ -1,0 +1,34 @@
+{
+  "name": "extra-bel.sh",
+  "version": "0.0.0",
+  "description": "Produce BEL sound in Linux Terminal.",
+  "preferGlobal": true,
+  "main": "index.sh",
+  "bin": {
+    "extra-bel": "index.sh",
+    "ebel": "index.sh"
+  },
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bashf/extra-bel.sh.git"
+  },
+  "keywords": [
+    "extra",
+    "bel",
+    "sound",
+    "terminal",
+    "cli"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bashf/extra-bel.sh/issues"
+  },
+  "homepage": "https://github.com/bashf/extra-bel.sh#readme",
+  "devDependencies": {
+    "extra-build": "^2.0.22"
+  }
+}

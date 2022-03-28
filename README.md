@@ -1,8 +1,15 @@
-Produce BEL sound in Linux Terminal.
-> 1. Download [bash script](https://github.com/bashf/extra-bel/releases/download/1.0.0/ebel).
-> 2. Set execute permission on the `bash script`, and copy to `~/scripts`.
-> 3. Add `~/scripts` to `PATH` environment variable.
+Produce BEL sound in Linux Terminal.<br>
+🐚 [Bash](https://www.npmjs.com/package/extra-bel.sh),
+📜 [Files](https://unpkg.com/extra-bel.sh/).
 
+> Stability: [Experimental](https://www.youtube.com/watch?v=L1j93RnIxEo).
+
+<br>
+
+```bash
+# Install
+$ npm install -g extra-bel.sh
+```
 
 ```bash
 $ ebel [<count>]
@@ -11,16 +18,20 @@ $ ebel [<count>]
 # <> -> argument value
 ```
 
+<br>
+
 ```bash
-# produce one BEL
+# Produce one BEL
 $ ebel
 
-# produce 4 BELs
+# Produce 4 BELs
 $ ebel 4
 
-# produce 4 BELs after copy is over
+# Produce 4 BELs after copy is over
 $ cp src.zip dst.zip && ebel 4
 ```
 
+<br>
+<br>
 
 [![bashf](https://i.imgur.com/HgNA3W8.jpg)](https://bashf.github.io)
