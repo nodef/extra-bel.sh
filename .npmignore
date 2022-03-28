@@ -1,5 +1,6 @@
 # Source only
 .gitmodules
+.github/
 src/
 data/
 wiki/

@@ -1,6 +1,6 @@
 {
   "name": "extra-bel.sh",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Produce BEL sound in Linux Terminal.",
   "preferGlobal": true,
   "main": "index.sh",
@@ -9,6 +9,7 @@
     "ebel": "index.sh"
   },
   "scripts": {
+    "deploy": "node ./build.js deploy",
     "test": "exit"
   },
   "repository": {
