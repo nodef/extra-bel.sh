@@ -1,6 +1,6 @@
 {
   "name": "extra-bel.sh",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Produce BEL sound in Linux Terminal.",
   "preferGlobal": true,
   "main": "index.sh",
