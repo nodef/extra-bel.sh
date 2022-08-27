@@ -34,4 +34,5 @@ $ cp src.zip dst.zip && ebel 4
 <br>
 <br>
 
-[![](https://img.youtube.com/vi/QVNbUOZJ6WY/maxresdefault.jpg)](https://www.youtube.com/watch?v=QVNbUOZJ6WY)
+[![](https://img.youtube.com/vi/QVNbUOZJ6WY/maxresdefault.jpg)](https://www.youtube.com/watch?v=QVNbUOZJ6WY)<br>
+[![DOI](https://zenodo.org/badge/107169172.svg)](https://zenodo.org/badge/latestdoi/107169172)
