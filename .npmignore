@@ -1,22 +1,10 @@
 # Source only
-.gitmodules
 .github/
-.docs/
 src/
-data/
-wiki/
-tests/
-unused/
-test.js
-CITATION.cff
 TODO
 
 # Build
 .build/
-coverage/
-.travis.yml
-.coveralls.yml
-tsconfig.json
-jest.config.js
-rollup.config.js
+.docs/
 build.js
+build-*.sh

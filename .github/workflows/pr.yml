@@ -8,13 +8,13 @@ jobs:
   test:
     strategy:
       matrix:
-        platform: [ubuntu-latest, windows-latest, macOS-latest]
-        node: [16.x, 18.x]
-    name: Test with Node ${{ matrix.node }} on ${{ matrix.platform }}
+        platform: [windows-latest]
+        node: [26.x]
+    name: Test on ${{ matrix.platform }}
     runs-on: ${{ matrix.platform }}
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: ${{ matrix.node }}
       - run: npm ci

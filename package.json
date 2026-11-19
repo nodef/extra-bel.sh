@@ -1,11 +1,12 @@
 {
   "name": "extra-bel.sh",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "Produce BEL sound in Linux Terminal.",
   "preferGlobal": true,
   "main": "index.sh",
   "bin": {
     "extra-bel": "index.sh",
+    "xbel": "index.sh",
     "ebel": "index.sh"
   },
   "scripts": {
@@ -29,8 +30,5 @@
   "bugs": {
     "url": "https://github.com/nodef/extra-bel.sh/issues"
   },
-  "homepage": "https://github.com/nodef/extra-bel.sh#readme",
-  "devDependencies": {
-    "extra-build": "^2.2.41"
-  }
+  "homepage": "https://github.com/nodef/extra-bel.sh#readme"
 }
